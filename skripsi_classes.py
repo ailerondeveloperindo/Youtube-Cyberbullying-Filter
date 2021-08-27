@@ -117,7 +117,7 @@ class youtube_mining:
     def comment_mining(link, max_result, search_term):
         dict1 = defaultdict(dict)
         os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
-        DEVELOPER_KEY = "AIzaSyDu05uUqdtZAtx3GkRp7pRqq8We-cVm-EI"
+        DEVELOPER_KEY = "" # insert developer key here
         api_service_name = "youtube"
         api_version = "v3"
 
